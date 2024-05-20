@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+  background-color: #F4F7FC;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.inner {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.bmi_title {
+  color: #4b4d95;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.top_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  box-shadow: 0px 3px 14px -8px #777777;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.input_wrapper {
+  width: 220px;
+  padding-top: 30px;
+}
+
+.input_wrapper input {
+  width: 75%;
+  border: 1px solid #cccccc;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.input_wrapper input::placeholder {
+  color: #aaa;
+}
+
+.input_wrapper button {
+  width: 89%;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #8F9DF2;
+  border: 1px solid #8F9DF2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.input_wrapper button:hover {
+  color: #8F9DF2;
+  background-color: #FFFFFF;
+}
+
+.bmi_graph_wrapper {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.bmi_graph_wrapper canvas {
+  width: 100%!important;
+  height: auto!important;
+  padding: 20px;
+}
+
+.bmi_list_wrapper {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bmi_list_inner {
+  padding: 0 40px 20px;
+  display: flex;
+  flex-direction:column-reverse
+}
+
+.bmi_list {
+  display: flex;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.bmi_list_h p {
+  color: #bebebe!important;
+}
+
+.bmi_list p {
+  width: 24%;
+  font-size: 14px;
+  color: #777777;
+  text-align: left;
+}
+
+.close_btn_wrapper {
+  width: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close_btn {
+  width: 20px;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 0;
+}
+
+.close_btn:hover {
+  cursor: pointer;
+}
+
+.close_btn img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.all_delete_btn button {
+  border: none;
+  color: #8F9DF2;
+  background-color: #FFFFFF;
+  border: 1px solid #8F9DF2;
+  height: 38px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.all_delete_btn button:hover {
+  color: #FFFFFF;
+  background-color: #8F9DF2;
+}
+
+
+
